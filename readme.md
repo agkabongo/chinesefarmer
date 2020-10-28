@@ -5,7 +5,7 @@ I made this project so you can read the story of the Chinese farmer.
 ## Built with 
 
 
-* [Visual Studio Code](http://code.visualstudio.com) - Framework CSS (front-end)
+* [Visual Studio Code](http://code.visualstudio.com) - Editeur de textes
 * [Atom](https://atom.io/) - Editeur de textes
 
 
