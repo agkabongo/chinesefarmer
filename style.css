@@ -1,0 +1,164 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida', sans-serif; 
+    color: rgb(2, 2, 88);
+    letter-spacing: 2px;
+    max-width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, #eeaeca, #94bbe9);
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*bottom right dans l'énoncé*/
+    background-size: cover;
+   
+}
+
+blockquote {
+    background-color: #cccbcb;
+    opacity: 0.7;
+    border-left: 3px solid #b22222;
+    padding: 10px 30px;
+    margin: auto;
+    width: 50%;
+    font-style: italic
+}
+
+blockquote:hover {
+    font-size: 160%;
+}
+
+
+body>p:first-of-type {
+    font-weight: bold;
+    font-size: large;
+}
+
+header:first-child {
+
+background-color: lightyellow;
+}
+
+q {
+    font-style: italic;
+}
+
+
+.farmer {
+    border-left: 3px solid darkslateblue;
+}
+
+.villagers {
+    border-left: 3px solid cornflowerblue;
+}
+
+.good,
+.bad {
+    text-transform: capitalize;
+}
+
+.good {
+    color: rgb(4, 162, 38);
+}
+
+.bad {
+    color: rgb(250, 0, 0);
+}
+
+hr {
+    margin: 50px 0;
+}
+
+table {
+    width: 400px;
+    border: 1px solid black;
+}
+
+th,
+td,
+caption {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #d8bfd8;
+}
+
+li:first-child {
+    background-image: url(bien.png);
+    padding: 20px 60px;
+    background-repeat: no-repeat;
+
+}
+
+li:nth-child(2) {
+    background-image: url(mal.png);
+    padding: 20px 60px;
+    background-repeat: no-repeat;
+}
+
+li:nth-child(3) {
+    background-image: url(chat.png);
+    padding: 20px 60px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+}
+
+.firstimg,
+.secondimg {
+    width: 50%;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+.rockstory {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: center;
+}
+
+.farmerstory {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 80px;
+    padding: 10px 20px;
+    justify-content: center;
+
+}
+
+footer {
+    margin: 50px 0;
+}
+
+[title], a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:visited {
+    color: darkcyan;
+}
